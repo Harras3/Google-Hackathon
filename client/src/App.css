@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Freehand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.8;
+}
+h1 {
+  font-family: "Freehand", cursive;
+  margin: 2%;
+}
+.main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+input[type="text"] {
+  outline: none;
+  border: none;
+  height: 70px;
+  font-size: 30px;
+  width: 50%;
+}
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+input[type="submit"] {
+  width: 120px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+input[type="submit"]:hover {
+  background-color: white;
+  border: 1px solid black;
+  color: black;
+}
+.output {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card {
+  overflow-y: auto;
+  height: 250px;
+  text-align: center;
+  padding: 5px;
+}
+.card-subtitle {
+  font-size: 14px;
+}
+.card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
